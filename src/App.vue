@@ -17,6 +17,9 @@ export default {
       content: '',
       options: {
         upload: '/api/igloo',
+        headers: {
+          'X-Custom-Header': 'foobar'
+        },
         theme: 'snow',
         modules: {
           toolbar: [
